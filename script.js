@@ -25,7 +25,7 @@ function meanArray(numbers) {
 
     mean = sum / numbers.length;
 
-    alert("The mean of the numbers provided is " + mean);
+    alert("The mean of the numbers provided is " + mean.toFixed(4));
 }
 
 function sumArray(numbers) {
@@ -35,5 +35,5 @@ function sumArray(numbers) {
         sum = sum + parseFloat(numbers[i]);
     }
 
-    alert("The sum of the numbers provided is " + sum);
+    alert("The sum of the numbers provided is " + sum.toFixed(4));
 }
